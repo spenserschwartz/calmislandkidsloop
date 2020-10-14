@@ -1,0 +1,15 @@
+{
+  "name": "kidsloop",
+  "version": "1.0.0",
+  "description": "Kidsloop Robot Island Test",
+  "main": "Robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spenser Schwartz",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "node": "^14.13.1"
+  }
+}
