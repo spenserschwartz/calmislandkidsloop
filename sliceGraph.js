@@ -16,6 +16,6 @@ const graphSlice = (graph, num) => {
 };
 
 // Run the function to slice the graph into graphObj
-graphSlice(graph, 50);
+graphSlice(graph, 20);
 
 module.exports = { graphObj };

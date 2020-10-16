@@ -22,7 +22,6 @@ const makeGraph = (num, noLargerThan) => {
 makeGraph(698, 23);
 
 const graphLength = graph.length; // Graph length is 1397 (698 on each side (x2) + 1 for the 0 scale line)
-console.log('This is graphLength: ', graphLength);
 
 let count = 0;
 for (let i = 0; i < graphLength; i += 1) {
@@ -31,6 +30,5 @@ for (let i = 0; i < graphLength; i += 1) {
   }
 }
 
-console.log('This is count: ', count);
 
 module.exports = {graph, graphLength};

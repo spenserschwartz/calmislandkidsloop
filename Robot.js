@@ -19,11 +19,10 @@ for (let key in graphObj) {
   sum += slice;
 }
 
+// In an ideal situation, once you make the graph, you can just run maxAreaOfIsland for the answer. 
+// However, because of the size of this island (graph), this exceeds the call stack & causes error.
+// The best solution after that is to run the function on slices of the graph that can be handled.
+// The call stack is able to handle slices of 40 rows at a time
+// At slicing of 40 rows, the sum would be 437,013.
+
 console.log('This is sum: ', sum);
-
-
-
-
-
-// Slice the graph every 100 rows so we don't exceed the max call stack
-
