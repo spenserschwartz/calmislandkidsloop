@@ -25,4 +25,4 @@ for (let key in graphObj) {
 // The call stack is able to handle slices of 40 rows at a time
 // At slicing of 40 rows, the sum would be 437,013.
 
-console.log('This is sum: ', sum);
+console.log('This is sum : ', sum);
